@@ -20,6 +20,8 @@ public class Test{
 	public void testGetBookById(){
 		BookService bs=new BookServiceImpl();
 		Book book = bs.getBookById("1");
+		System.out.println("11111111111111");
 		System.out.println(book);
+		System.out.println("22222222222");
 	}
 }
