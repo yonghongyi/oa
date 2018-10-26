@@ -13,4 +13,10 @@ class Test{
 		}
 		System.out.println(book1);
 	}
+	@Test
+	public void testGetBookById(){
+		BookService bs=new BookServiceImpl();
+		Book book = bs.getBookById("1");
+		System.out.println(book);
+	}
 }
