@@ -22,4 +22,7 @@ public class Test{
 	public String getString(){
 		return "hello java!";
 	}
+	public void test12(){
+		return "add second method";
+	}
 }
