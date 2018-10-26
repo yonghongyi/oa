@@ -19,4 +19,7 @@ class Test{
 		Book book = bs.getBookById("1");
 		System.out.println(book);
 	}
+	public String getString(){
+		return "hello java!";
+	}
 }
