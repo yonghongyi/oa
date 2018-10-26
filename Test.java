@@ -3,6 +3,9 @@ public class Test{
 
 		System.out.println("this is first test!");
 	}
+	public void test11(){
+		System.out.println("add a head mehtod");
+	}
 	@Test
 	public void testGetBooks(){
 		BookService bs=new BookServiceImpl();
