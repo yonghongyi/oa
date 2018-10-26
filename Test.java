@@ -26,6 +26,7 @@ public class Test{
 		return "hello java!";
 	}
 	public void test12(){
+		System.out.println("333333333333")
 		return "add second method";
 	}
 }
